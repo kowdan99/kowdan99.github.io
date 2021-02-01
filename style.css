@@ -53,3 +53,11 @@ and (max-device-width : 480px) {
       font-size: x-large;
   }
 }
+
+.darkmode-layer, .darkmode-toggle {
+  z-index: 500;
+}
+
+.container.darkmode--activated {
+  background-color: #000;
+}
